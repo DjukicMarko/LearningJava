@@ -1,0 +1,31 @@
+package advent_of_code;
+
+import days.DayOne;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class AdventOfCode2017 {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter task's part to run (1 or 2): ");
+        int input = scanner.nextInt();
+
+        DayOne dayOne = new DayOne();
+        int i = dayOne.solveTask(input);
+        log.info("Task's part {} solution is: {}", input, i);
+
+        System.out.print("Do you wish to solve other part of the task? Y/N: ");
+        String s = scanner.nextLine();
+
+        if (s.equalsIgnoreCase("Y")) {
+            int secondInput = input == 1 ? 2 : input;
+            dayOne.solveTask(secondInput);
+            log.info("Task's part {} solution is: {}", secondInput, i);
+        } else {
+            log.info("You solved only task part {}", input);
+        }
+    }
+}
