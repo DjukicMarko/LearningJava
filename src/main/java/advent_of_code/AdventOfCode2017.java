@@ -12,6 +12,7 @@ public class AdventOfCode2017 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter task's part to run (1 or 2): ");
         int input = scanner.nextInt();
+        scanner.nextLine();
 
         DayOne dayOne = new DayOne();
         int i = dayOne.solveTask(input);
@@ -21,9 +22,9 @@ public class AdventOfCode2017 {
         String s = scanner.nextLine();
 
         if (s.equalsIgnoreCase("Y")) {
-            int secondInput = input == 1 ? 2 : input;
-            dayOne.solveTask(secondInput);
-            log.info("Task's part {} solution is: {}", secondInput, i);
+            int secondInput = (input == 1) ? 2 : input;
+            int result2 = dayOne.solveTask(secondInput);
+            log.info("Task's part {} solution is: {}", secondInput, result2);
         } else {
             log.info("You solved only task part {}", input);
         }
