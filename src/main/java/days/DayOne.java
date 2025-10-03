@@ -1,78 +1,45 @@
 package days;
 
-import java.io.File;
+import advent_of_code.AdventOfCode2017;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.file.Files;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class DayOne {
 
-    public int solveTask(int tasksPart) throws FileNotFoundException {
-        String content = getFilesString();
-
+    public int solveTask(String input, int taskPart) {
         int result = 0;
+        int half = input.length() / 2;
 
-        if (tasksPart == 1) {
-            int i = solveFirst(content);
-            result = i;
-        } else if (tasksPart == 2) {
-            int i1 = solveSecond(content);
-            result = i1;
-        } else {
-            throw new IllegalArgumentException();
+        if (taskPart == 1) {
+            for (int i = 0; i < input.length(); i++) {
+                if (input.charAt(i) == input.charAt((i + 1) % input.length())) {
+                    result += Character.getNumericValue(input.charAt(i));
+                }
+            }
+        } else if (taskPart == 2) {
+            for (int i = 0; i < input.length(); i++) {
+                if (input.charAt(i) == input.charAt((i + half) % input.length())) {
+                    result += Character.getNumericValue(input.charAt(i));
+                }
+            }
         }
 
         return result;
     }
 
-    private int solveFirst(String content) {
-        int addition = 0;
 
-        for (int i = 0; i < content.length() - 1; i++) {
-            char charFirst = content.charAt(i);
-            char nextChar = content.charAt(i + 1);
-
-            if (charFirst == nextChar) {
-                addition += Character.getNumericValue(charFirst);
+    public static String getFilesString() throws IOException {
+        try (InputStream inputStream = AdventOfCode2017.class.getResourceAsStream("/input.txt")) {
+            if (inputStream == null) {
+                throw new FileNotFoundException("Resource not found: input.txt");
             }
-        }
-        if (content.charAt(content.length() - 1) == content.charAt(0)) {
-            addition += Character.getNumericValue(content.charAt(0));
+            return new String(inputStream.readAllBytes(), StandardCharsets.UTF_8).trim();
         }
 
-        return addition;
-    }
-
-    private int solveSecond(String content) {
-        int addition = 0;
-        int half = content.length() / 2;
-
-        for (int i = 0; i < content.length(); i++) {
-            char charFirst = content.charAt(i);
-            char nextChar = content.charAt((i + half) % content.length());
-
-            if (charFirst == nextChar) {
-                addition += Character.getNumericValue(charFirst);
-            }
-
-        }
-
-        return addition;
-    }
-
-    private static String getFilesString() throws FileNotFoundException {
-        File file = new File("src/main/resources/input.txt");
-        String content = "";
-
-        try {
-            content = new String(Files.readAllBytes(file.toPath())).trim();
-        } catch (IOException e) {
-            throw new FileNotFoundException();
-        }
-
-        return content;
     }
 
 }
