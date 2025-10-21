@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beacfec5-0abf-4cc4-b5c9-9806fea9a016" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearningJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/days/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/days/DayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/days/DayOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/days/DayOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +15,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "markodjukicalianza"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;markodjukicalianza&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DjukicMarko/LearningJava.git",
-    "accountId": "5fd13539-724e-492a-805d-0882b23a7bc4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DjukicMarko/LearningJava.git&quot;,
+    &quot;accountId&quot;: &quot;5fd13539-724e-492a-805d-0882b23a7bc4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="343o9p2T8RRXjQZkRJNNUWI81VY" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -48,29 +38,29 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AdventOfCodeTest.executor": "Run",
-    "JUnit.AdventOfCodeTest.testSolveTask.executor": "Debug",
-    "JUnit.AdventOfCodeTest.testSolveTaskNullValue.executor": "Run",
-    "JUnit.AdventOfCodeTest.testSolveTaskSecondPart.executor": "Debug",
-    "JUnit.AdventOfCodeTest.testSolveTaskThirdPart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AdventOfCodeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdventOfCodeTest.testSolveTask.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.AdventOfCodeTest.testSolveTaskNullValue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdventOfCodeTest.testSolveTaskSecondPart.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.AdventOfCodeTest.testSolveTaskThirdPart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.AdventOfCodeTest">
     <configuration name="AdventOfCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
@@ -238,6 +228,8 @@
       <option name="presentableId" value="Default" />
       <updated>1760451467867</updated>
       <workItem from="1760451469364" duration="7285000" />
+      <workItem from="1760606627155" duration="600000" />
+      <workItem from="1760940478493" duration="8605000" />
     </task>
     <servers />
   </component>
