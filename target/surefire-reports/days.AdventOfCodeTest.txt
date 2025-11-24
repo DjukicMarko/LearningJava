@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: days.AdventOfCodeTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s -- in days.AdventOfCodeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s -- in days.AdventOfCodeTest

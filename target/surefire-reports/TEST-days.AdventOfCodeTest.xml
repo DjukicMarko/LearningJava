@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="days.AdventOfCodeTest" time="0.107" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="days.AdventOfCodeTest" time="0.098" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/markodj/Projects/LearningJava/target/surefire/surefirebooter-20251021110108703_3.jar /Users/markodj/Projects/LearningJava/target/surefire 2025-10-21T11-01-08_659-jvmRun1 surefire-20251021110108703_1tmp surefire_0-20251021110108703_2tmp"/>
+    <property name="sun.java.command" value="/Users/markodj/Projects/LearningJava/target/surefire/surefirebooter-20251124133330346_3.jar /Users/markodj/Projects/LearningJava/target/surefire 2025-11-24T13-33-30_303-jvmRun1 surefire-20251124133330346_1tmp surefire_0-20251124133330346_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/markodj/Projects/LearningJava/target/test-classes:/Users/markodj/Projects/LearningJava/target/classes:/Users/markodj/.m2/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar:/Users/markodj/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/markodj/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar:/Users/markodj/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar:/Users/markodj/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/markodj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/markodj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/markodj/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/markodj/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/markodj/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/markodj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/markodj/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/markodj/.m2/repository/org/mockito/mockito-core/5.14.1/mockito-core-5.14.1.jar:/Users/markodj/.m2/repository/net/bytebuddy/byte-buddy/1.15.3/byte-buddy-1.15.3.jar:/Users/markodj/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.3/byte-buddy-agent-1.15.3.jar:/Users/markodj/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/markodj/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.1/mockito-junit-jupiter-5.14.1.jar:/Users/markodj/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/markodj/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/markodj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/markodj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/markodj/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/markodj/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/markodj/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/markodj/Projects/LearningJava/target/surefire/surefirebooter-20251021110108703_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/markodj/Projects/LearningJava/target/surefire/surefirebooter-20251124133330346_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.16+0"/>
@@ -59,7 +59,7 @@
   </properties>
   <testcase name="testSolveTask" classname="days.AdventOfCodeTest" time="0.009"/>
   <testcase name="testSolveTaskThirdPart" classname="days.AdventOfCodeTest" time="0.001"/>
-  <testcase name="testSolveTaskSecondPart" classname="days.AdventOfCodeTest" time="0.001"/>
-  <testcase name="testSolveTaskNullValue" classname="days.AdventOfCodeTest" time="0.001"/>
+  <testcase name="testSolveTaskSecondPart" classname="days.AdventOfCodeTest" time="0.0"/>
+  <testcase name="testSolveTaskNullValue" classname="days.AdventOfCodeTest" time="0.0"/>
   <testcase name="testSolveTaskNullTaskPart" classname="days.AdventOfCodeTest" time="0.001"/>
 </testsuite>

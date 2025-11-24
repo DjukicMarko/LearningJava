@@ -3,7 +3,6 @@ package days;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.io.IOException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 
@@ -14,16 +13,16 @@ class AdventOfCodeTest {
 
     @Test
     @DisplayName("Test solving first part of the task")
-    void testSolveTask() throws IOException {
-        int result = dayOne.solveTask(input, 1);
-        assertEquals(1144, result);
+    void testSolveTask() {
+        int result = dayOne.solveTask("1122", 1);
+        assertEquals(3, result);
     }
 
     @Test
     @DisplayName("Test solving second part of the task")
-    void testSolveTaskSecondPart() throws IOException {
-        int result = dayOne.solveTask(input, 2);
-        assertEquals(1194, result);
+    void testSolveTaskSecondPart() {
+        int result = dayOne.solveTask("1212", 2);
+        assertEquals(6, result);
     }
 
     @Test

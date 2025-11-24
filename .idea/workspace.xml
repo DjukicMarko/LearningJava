@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beacfec5-0abf-4cc4-b5c9-9806fea9a016" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advent_of_code/AdventOfCode2017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advent_of_code/AdventOfCode2017.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/days/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/days/DayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/days/DayOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/days/DayOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LearnJava-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/LearnJava-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LearnJava-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/LearnJava-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +45,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="343o9p2T8RRXjQZkRJNNUWI81VY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -229,7 +246,14 @@
       <updated>1760451467867</updated>
       <workItem from="1760451469364" duration="7285000" />
       <workItem from="1760606627155" duration="600000" />
-      <workItem from="1760940478493" duration="8948000" />
+      <workItem from="1760940478493" duration="10608000" />
+      <workItem from="1761199774204" duration="598000" />
+      <workItem from="1761550662656" duration="2808000" />
+      <workItem from="1762154826401" duration="585000" />
+      <workItem from="1762183471844" duration="1799000" />
+      <workItem from="1763366024373" duration="395000" />
+      <workItem from="1763478775251" duration="506000" />
+      <workItem from="1763970846901" duration="5528000" />
     </task>
     <servers />
   </component>
